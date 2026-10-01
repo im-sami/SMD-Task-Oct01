@@ -94,6 +94,7 @@ export default function HomeScreen() {
                 <Text style={[styles.eyebrow, { color: colors.accent }]}>MY DAY</Text>
                 <Text style={[styles.title, { color: colors.text }]}>A little lighter.</Text>
                 <Text style={[styles.subtitle, { color: colors.muted }]}>One thing at a time.</Text>
+                <Text style={[styles.identity, { color: colors.muted }]}>22i-2717 Sami Naveed</Text>
               </View>
               <View style={[styles.countBadge, { backgroundColor: colors.accentSoft }]}>
                 <Text style={[styles.countNumber, { color: colors.accent }]}>{activeCount}</Text>
@@ -176,6 +177,7 @@ const styles = StyleSheet.create({
   eyebrow: { fontSize: 12, fontWeight: '800', letterSpacing: 1.5, marginBottom: 12 },
   title: { fontSize: 34, fontWeight: '800', letterSpacing: -0.5 },
   subtitle: { fontSize: 16, marginTop: 5 },
+  identity: { fontSize: 13, fontWeight: '600', marginTop: 10 },
   countBadge: { width: 62, height: 62, borderRadius: 31, alignItems: 'center', justifyContent: 'center', marginTop: 7 },
   countNumber: { fontSize: 22, fontWeight: '800', lineHeight: 24 },
   countLabel: { fontSize: 11, fontWeight: '700' },
