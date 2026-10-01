@@ -62,7 +62,6 @@ export default function HomeScreen() {
   );
   const completedCount = tasks.filter((task) => task.done).length;
   const activeCount = tasks.length - completedCount;
-  const controlledCiError: string = 123;
 
   const addTask = () => {
     const title = draft.trim();
